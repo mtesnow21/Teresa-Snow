@@ -1,0 +1,8 @@
+*.xml
+*.log
+*.regtrans-ms
+Application Data/
+Documents/
+Pictures/
+Templates/
+NTSUER.DAT/
