@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teresa's Snow Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#videos">Embedding Videos</a></li>
+      <li><a href="#ebooks">eBook Downloads</a></li>
+      <li><a href="#newsletter">Newsletter Signups</a></li>
+      <li><a href="#more">And More!</a></li>
+    </ul>
+  </nav>
+
+  <section id="videos">
+    <h2>Embedding Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section id="ebooks">
+    <h2>eBook Downloads</h2>
+    <a href="your-ebook-link" download>Download eBook</a>
+  </section>
+
+  <section id="newsletter">
+    <h2>Subscribe to our Newsletter</h2>
+    <form action="YOUR_FORM_HANDLER_URL" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section id="more">
+    <h2>And More!</h2>
+    <p>Content will be added here soon.</p>
+  </section>
+
+</body>
+</html>
